@@ -68,3 +68,5 @@ variable "ALB_DOMAIN_NAME" {
   type        = string
   description = "Domain name for the ALB"
 }
+variable "AMI" {
+}
