@@ -7,8 +7,8 @@ resource "aws_db_subnet_group" "book-shop-subnet" {
 resource "aws_db_instance" "book-db" {
   identifier              = "book-db"
   engine                  = "mysql"
-  engine_version          = "5.7"
-  instance_class          = "db.t2.micro"
+  engine_version          = "8.0"
+  instance_class          = "db.t3.micro"
   allocated_storage       = 20
   username                = var.DB_USERNAME
   password                = var.DB_PASSWORD
