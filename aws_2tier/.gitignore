@@ -1,0 +1,6 @@
+
+root/*terraform
+root/*.tfvars
+
+modules/key/client_key
+modules/key/client_key.pub
